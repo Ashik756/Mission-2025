@@ -10,10 +10,10 @@
         }
     button{
     padding: 12px 19px;
-    font-size: 16px; 
+    font-size: 18px; 
     }
     #hero-section {
-        margin: 50px 12.5%;
+        margin: 50px 7%;
         padding: 30px 40px;
     }
     #hero-section-img{
@@ -24,6 +24,24 @@
     #hero-section-text h1{
         font-size: 32px;
         margin-bottom: 24px;
+    }
+        /* Why Web Development?? */
+
+    #Why-Web-Development-section{
+        margin: 0 7%;
+        padding-bottom: 100px;
+    }
+    #Why-Web-Development-section-text{
+        margin-bottom: 48px;
+    }
+    #Why-Web-Development-section-img{
+        display: flex;
+        flex-direction:column-reverse;
+        padding: 48px;
+    }
+    #Why-Web-Development-section-img-img{
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -41,13 +59,7 @@
         margin: 50px 20px;
         padding: 15px 10px;
     }
-    #hero-section-img{
-        margin-bottom: 20px;
-        height: 240px;
-        width: 240px;
-    }
     #hero-section-text h1{
-        font-size: 24px;
-        margin-bottom: 24px;
+        font-size: 26px;
     }
 }
