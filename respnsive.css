@@ -38,7 +38,16 @@
         font-size: 12px;
     }
     #hero-section {
-        margin: 25px;
-        padding: 30px 40px;
+        margin: 50px 20px;
+        padding: 15px 10px;
+    }
+    #hero-section-img{
+        margin-bottom: 20px;
+        height: 240px;
+        width: 240px;
+    }
+    #hero-section-text h1{
+        font-size: 24px;
+        margin-bottom: 24px;
     }
 }
