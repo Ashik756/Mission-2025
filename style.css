@@ -17,7 +17,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 24px 80px ;
+    padding: 24px 12.5% ;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px ;
 }
 span{
@@ -48,12 +48,15 @@ button:hover{
     background-color: white;
     border: 1px solid black;
     text-align: center;
-    margin: 100px;
+    margin: 100px 12.5%;
     padding: 40px 60px;
     border-radius: 16px;
 }
 #hero-section-img{
     margin-bottom: 32px;
+    height: 16.19%;
+    width:16.19%;
+    display: inline-block;
 }
 #hero-section-text h1{
     font-size: 48px;
