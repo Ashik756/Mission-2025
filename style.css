@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: linear-gradient(130deg,#E6E6FA,#B8E7FA );
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 24px 80px 24px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px ;
+}
+span{
+    color: #FFA500;
+}
+
+/* Button  */
+
+button{
+    background-image: linear-gradient(to right,#FFA500,#FFD447);
+    color: #0D1321;
+    border: none;
+    border-radius: 10px;
+    padding: 17px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+button:hover{
+    background-image: linear-gradient(to right,#FFD447, #FFA500 );
+}
+
+/* Hero Section  */
+
+#hero-section{
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin: 100px;
+    padding: 40px 60px;
+    border-radius: 16px;
+}
+#hero-section-img{
+    margin-bottom: 32px;
+}
+#hero-section-text h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: #0D1321;
+}
+#hero-section-text p{
+    padding-bottom: 32px;
+    color: #0D1321;
+}
+#hero-section-text button{
+    margin-bottom: 40px;
+}
+
+/* Why Web Development?? */
+
+#Why-Web-Development-section{
+    margin: 0 100px;
+    padding-bottom: 100px;
+}
+#Why-Web-Development-section-text{  
+    margin-bottom: 48px;  
+}
+#Why-Web-Development-section-text h1{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: #0D1321;
+    text-align: center;
+}
+#Why-Web-Development-section-text p{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: 400;
+    text-align: center;
+}
+#Why-Web-Development-section-img{
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 48px;
+}
+#Why-Web-Development-section-img-text h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+}
+#Why-Web-Development-section-img-text p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+/* my-inspiration-section */
+
+#my-inspiration{
+    text-align: center;
+}
+#my-inspiration-text h1{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+#my-inspiration-text p{
+    font-family: "Azeret Mono",monospace;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+#my-inspiration-vdo iframe{
+    border-radius: 16px;   
+    display: inline-block;
+    border: 1px solid #0D132120;
+    padding: 32px;
+}
+iframe{
+    border-radius: 16px;
+}
+/* card section  */
+
+#my-current-target{
+    margin: 100px;
+}
+#my-current-target-text{
+    text-align: center;
+    color: #0D1321;
+}
+#my-current-target-text h1{
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+#my-current-target-text p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+#my-current-target-card{
+    display: flex;
+    justify-content: space-evenly;
+    padding: auto;
+}
+.card{
+    background-image: linear-gradient(#E6E6FA,#B8E7FA);
+    width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 30px 0px;
+}
+.card h2,a{
+    color: #0D1321;
+    padding-bottom: 24px;
+}
+.card img{
+    margin-bottom: 24px;
+}
+
+/* Footer Section  */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px  150px;
+    background-color: white;
+    align-items: center;
+}
+footer h1{
+    font-family:"Azeret Mono",monospace;
+    font-size: 20px;
+    font-weight: 600 ;
+}
+#links a{
+    height: 36px;
+    width: 36px;
+    padding-left: 24px;
+}
