@@ -1,6 +1,8 @@
 /* Responsive for laptop device */
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+ 
+}
 
 /* Responsive for Tab */
 
@@ -29,7 +31,7 @@
 
     #Why-Web-Development-section{
         margin: 0 7%;
-        padding-bottom: 100px;
+        padding-bottom: 0px;
     }
     #Why-Web-Development-section-text{
         margin-bottom: 48px;
@@ -37,11 +39,34 @@
     #Why-Web-Development-section-img{
         display: flex;
         flex-direction:column-reverse;
-        padding: 48px;
+        padding: 48px 20px;
     }
     #Why-Web-Development-section-img-img{
         width: 100%;
         height: auto;
+    }
+    
+    /* My Inspiration */
+
+    /* My Current Target */
+
+    #my-current-target-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{      
+        width: 100%;
+        padding: 40px;
+        margin-bottom: 30px;      
+    }
+    
+    /* Footer  */
+
+    #footer{
+        margin: 0 7%;   
+    }
+    footer h1{
+        font-size: 18px;
     }
 }
 
@@ -61,5 +86,15 @@
     }
     #hero-section-text h1{
         font-size: 26px;
+    }
+
+    /* Footer*/
+    #footer{
+        flex-direction: column;
+        text-align: center;
+        padding: 32px 0 0 0;
+    }
+    footer h1{
+        margin-bottom: 15px;
     }
 }
