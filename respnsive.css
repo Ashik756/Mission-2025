@@ -42,11 +42,19 @@
         padding: 48px 20px;
     }
     #Why-Web-Development-section-img-img{
-        width: 100%;
+        width:80%;
         height: auto;
     }
     
     /* My Inspiration */
+    #my-inspiration{
+        margin: 0 7%;
+    }
+    #my-inspiration-vdo{
+        width: 100%;
+        padding: 20px;
+    }
+    
 
     /* My Current Target */
 
@@ -88,6 +96,13 @@
         font-size: 26px;
     }
 
+    /* My Inspiration */
+    #my-inspiration-vdo{
+            width: 100%;
+            margin: 0 ;
+            padding: 0px;
+            
+        }
     /* Footer*/
     #footer{
         flex-direction: column;
