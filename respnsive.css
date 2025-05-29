@@ -1,11 +1,6 @@
-/* Responsive for laptop device */
-
-@media screen and (max-width: 1200px) {
- 
-}
+/* Practice Purpose */
 
 /* Responsive for Tab */
-
 @media screen and (max-width: 1024px) {
     header {
         padding: 14px 30px ;
@@ -14,6 +9,8 @@
     padding: 12px 19px;
     font-size: 18px; 
     }
+
+/* Hero section  */
     #hero-section {
         margin: 50px 7%;
         padding: 30px 40px;
@@ -27,8 +24,8 @@
         font-size: 32px;
         margin-bottom: 24px;
     }
-        /* Why Web Development?? */
 
+/* Why Web Development?? */
     #Why-Web-Development-section{
         margin: 0 7%;
         padding-bottom: 0px;
@@ -41,12 +38,15 @@
         flex-direction:column-reverse;
         padding: 48px 20px;
     }
+    #Why-Web-Development-section-img-text p{
+        width:100%;
+    }
     #Why-Web-Development-section-img-img{
         width:80%;
         height: auto;
     }
     
-    /* My Inspiration */
+/* My Inspiration */
     #my-inspiration{
         margin: 0 7%;
     }
@@ -55,9 +55,7 @@
         padding: 20px;
     }
     
-
-    /* My Current Target */
-
+/* My Current Target */
     #my-current-target-card{
         display: flex;
         flex-direction: column;
@@ -67,9 +65,8 @@
         padding: 40px;
         margin-bottom: 30px;      
     }
-    
-    /* Footer  */
 
+/* Footer  */
     #footer{
         margin: 0 7%;   
     }
@@ -78,9 +75,12 @@
     }
 }
 
-/* Responsive for Mobile */
 
+
+/* Responsive for Mobile */
 @media screen and (max-width: 660px) {
+
+/* Header secton  */
     header h1 {
             font-size: 25px;
         }    
@@ -88,6 +88,8 @@
         padding: 9px 16px;
         font-size: 12px;
     }
+
+/* Hero secton  */
     #hero-section {
         margin: 50px 20px;
         padding: 15px 10px;
@@ -96,14 +98,14 @@
         font-size: 26px;
     }
 
-    /* My Inspiration */
+/* My Inspiration */
     #my-inspiration-vdo{
             width: 100%;
             margin: 0 ;
             padding: 0px;
             
         }
-    /* Footer*/
+/* Footer*/
     #footer{
         flex-direction: column;
         text-align: center;
